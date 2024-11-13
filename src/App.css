@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	box-sizing: inherit;
+}
+body {
+	min-width: 320px;
+	width: 100%;
+}
+header,
+main,
+section,
+footer {
+	display: flex;
+	justify-content: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	margin: 0;
+	padding: 0;
+}
+ul,
+ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	max-width: 1360px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px 80px;
+}
+
+.frame {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #333;
+	padding: 10px;
+}
+
+.rod {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 9px;
+	padding: 12px 0;
+	min-height: 250px;
+	background-image: url('./assets/img/frame-1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.top {
+	height: 63px;
+}
+
+.bottom {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	height: 154px;
+}
+
+.bead {
+	width: 30px;
+	height: 15px;
+	margin: 1px;
+	background-color: transparent;
+	background-image: url('./assets/img/bead-1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.izumrude-bead-skin {
+	background-image: url('./assets/img/bead-2.png');
+}
+
+.metal-frame-skin {
+	background-image: url('./assets/img/frame-2.png');
+}
